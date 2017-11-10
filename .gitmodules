@@ -1,0 +1,3 @@
+[submodule "text-diagram"]
+	path = text-diagram
+	url = https://github.com/noahp/text-diagram.git
