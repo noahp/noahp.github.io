@@ -16,8 +16,11 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GH_TOKEN
+  github_token: "$GH_TOKEN"
   local_dir: _site
   target_branch: gh-pages
   on:
     branch: source
+env:
+  global:
+    secure: ZCq3ghWZd3Oqwl9OdmqoCwWffPgCSOzwdy2VDIT3WVeANAhOK8LyQzksNGqv9s7xmdJ1505kKUqAFF2rYGOJJdI08eI2p+bdzbtVHAM3WxlsOMAMP09AUBf/qyzl2PIkfHvPSTlccxQw/CUUbLgOiuPmzuzpKtS6UbfZiWISntNFhsrbB1M82czW8JNN2eHDLFGmhByPIzPtzKNhQmvCple6S+DpdFqV8pCpOpn4ienjoMh9txJnFCmSRsjznIG9vlYf52NMhkbEePhVh54IfPI2mODhjkRkd03/syTnkiQLspoHWxpzsFk7jIgQqQRU9nkyaC9G6/E65uh71MaOsp0oQSr3CEtoyRt1lRoUh7PG6zZqb5Xiw6zftKcLcip/waC3CZ/w8IIEztZxVTRSMtebBW4+Dkzu2ZFLQvVR1DbFK6BJ512Yb7dXtiO4ixHjxMfs6wWzlcXHWOMmWel4+5RPBtU2oG/1unEtBj3WSnPw/3o9DKtYZH+hgmB39D8ryUBa9vXaGIN51Y1JqO+W9PCtBQ5ASMyynvwNlsPEBh+ATZG0aIm6Aj3lXDo7ENZii1lleUdS5RNftSi2obVO/RxuwRjQwmpWXvMxRaRM6syMCqY89f6DegxUAp/HiaKJDUOilwx/g8R60pKozHZAUS+5umhhJJyrk6nLGN78Jck=
