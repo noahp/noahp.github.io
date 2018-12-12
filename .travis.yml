@@ -1,0 +1,23 @@
+# From https://cobalt-org.github.io/docs/deployment.html
+sudo: false
+language: generic
+before_script:
+  - curl -LSfs https://japaric.github.io/trust/install.sh |
+    sh -s --
+    --git cobalt-org/cobalt.rs
+    --crate cobalt
+    --force
+    --target x86_64-unknown-linux-gnu
+    --tag v0.14.0
+  - export PATH="$PATH:~/.cargo/bin"
+script:
+  - cobalt build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: _site
+  target_branch: gh-pages
+  on:
+    branch: source
