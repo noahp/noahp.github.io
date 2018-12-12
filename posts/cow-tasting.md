@@ -1,6 +1,7 @@
 ---
 title: 'Cow tasting'
 layout: default.liquid
+published_date: '2015-10-22 06:39:00 -07:00'
 is_draft: false
 ---
 

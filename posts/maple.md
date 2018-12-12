@@ -1,6 +1,7 @@
 ---
 title: 'Maple'
 layout: default.liquid
+published_date: '2017-02-15 06:01:00 -08:00'
 is_draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'RGB Banner'
 layout: default.liquid
+published_date: '2015-08-14 04:56:00 -07:00'
 is_draft: false
 ---
 

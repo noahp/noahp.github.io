@@ -1,6 +1,7 @@
 ---
 title: 'Bagel Bagel'
 layout: default.liquid
+published_date: '2016-01-15 09:40:00 -08:00'
 is_draft: false
 ---
 

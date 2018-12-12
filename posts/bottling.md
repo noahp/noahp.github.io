@@ -1,6 +1,7 @@
 ---
 title: 'Beer batch #6 bottling'
 layout: default.liquid
+published_date: '2015-10-22 06:19:00 -07:00'
 is_draft: false
 ---
 

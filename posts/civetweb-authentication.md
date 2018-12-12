@@ -1,6 +1,7 @@
 ---
 title: 'civetweb Authentication'
 layout: default.liquid
+published_date: '2015-08-18 09:05:00 -07:00'
 is_draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'Kicad Interactive Router'
 layout: default.liquid
+published_date: '2015-08-17 06:15:00 -07:00'
 is_draft: false
 ---
 

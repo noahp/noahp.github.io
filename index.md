@@ -1,9 +1,7 @@
+title: "Blog posts"
 layout: default.liquid
 ---
-## Blog!
-
 {% for post in collections.posts.pages %}
-#### {{post.title}}
+#### [{{ post.title }}]({{ post.permalink }}) / {{ post.published_date | slice: 0, 16}}
 
-[{{ post.title }}]({{ post.permalink }})
 {% endfor %}

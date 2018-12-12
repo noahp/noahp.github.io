@@ -1,6 +1,7 @@
 ---
 title: 'San Juan'
 layout: default.liquid
+published_date: '2015-09-29 10:34:00 -07:00'
 is_draft: false
 ---
 

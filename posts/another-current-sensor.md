@@ -1,6 +1,7 @@
 ---
 title: 'Another current sensor'
 layout: default.liquid
+published_date: '2017-02-15 06:06:00 -08:00'
 is_draft: false
 ---
 

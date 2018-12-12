@@ -1,6 +1,7 @@
 ---
 title: 'New boards'
 layout: default.liquid
+published_date: '2015-12-06 06:29:00 -08:00'
 is_draft: false
 ---
 
