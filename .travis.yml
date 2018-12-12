@@ -1,26 +1,19 @@
-# From https://cobalt-org.github.io/docs/deployment.html
 sudo: false
 language: generic
 before_script:
-  - curl -LSfs https://japaric.github.io/trust/install.sh |
-    sh -s --
-    --git cobalt-org/cobalt.rs
-    --crate cobalt
-    --force
-    --target x86_64-unknown-linux-gnu
-    --tag v0.14.0
-  - export PATH="$PATH:~/.cargo/bin"
+- curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git cobalt-org/cobalt.rs
+  --crate cobalt --force --target x86_64-unknown-linux-gnu --tag v0.14.0
+- export PATH="$PATH:~/.cargo/bin"
 script:
-  - cobalt build
-
+- cobalt build
+env:
+  global:
+  - secure: 301ylbX4Q2ECnVck1eWVSsOkdO2onLhFNANg8vWS5Zi6AMlipNpmZ73RuonTxKBsukhFhQFFKGdkFGLRkJdxtecVGcjMNdwScj0uLrSRNx3tMJ5s1gDdQuX6pNt+QAWMkGfbMYOZwBrrzTYnxNqEiRddn87l+jvwa5k5MnHdQ4nKpuYZb3rlChtSi+XQD/3I5wIpG1XnGy0CSFWlUANTdi9xyKvAG6tPEjKvnsEGdJYn4k87Kw5Xdo9fwSx02FR9nTLJkLfeHDz5Oik8ZTTUq5UrHP+AVtq0+hSsdF7lhcO4rq4G22W/xt8ziqykph5WcSPZga6JdH51ZGCXTRMJQMoJ4iMViG72prPWJNO6bjHNYuuu/h1dv2ZqUqXHTdSOl0Vg72AD3mnhmJ6hCBnkKou0LI4D9wrCo0BI4ox3CYROQ7jHppQq5ybqJth3zCZ/eI8/aoY3fQ/8zFzDtf8XR8CCK+T0jLDML2aiax93fc6LBmchWAmjx7dGBncvGJ4fU7taKb5bmB/QPOyEuNu48unxXxwaC71yjbfjKahmYW4ymeeVlX89jXRbWC+PHAMkAy8ZWceBD7HLCy875Q2206BAWTTViX2xLbzpG1aTIHHY3c6pvB7OjTjFQDD4LZRg5XZmsC9CT39VRa2EMQyxkfXs9HWfNsBaqBpKpYXFImI=
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: "$GH_TOKEN"
+  github_token: $GH_TOKEN
   local_dir: _site
-  target_branch: gh-pages
+  target_branch: master
   on:
     branch: source
-env:
-  global:
-    secure: ZCq3ghWZd3Oqwl9OdmqoCwWffPgCSOzwdy2VDIT3WVeANAhOK8LyQzksNGqv9s7xmdJ1505kKUqAFF2rYGOJJdI08eI2p+bdzbtVHAM3WxlsOMAMP09AUBf/qyzl2PIkfHvPSTlccxQw/CUUbLgOiuPmzuzpKtS6UbfZiWISntNFhsrbB1M82czW8JNN2eHDLFGmhByPIzPtzKNhQmvCple6S+DpdFqV8pCpOpn4ienjoMh9txJnFCmSRsjznIG9vlYf52NMhkbEePhVh54IfPI2mODhjkRkd03/syTnkiQLspoHWxpzsFk7jIgQqQRU9nkyaC9G6/E65uh71MaOsp0oQSr3CEtoyRt1lRoUh7PG6zZqb5Xiw6zftKcLcip/waC3CZ/w8IIEztZxVTRSMtebBW4+Dkzu2ZFLQvVR1DbFK6BJ512Yb7dXtiO4ixHjxMfs6wWzlcXHWOMmWel4+5RPBtU2oG/1unEtBj3WSnPw/3o9DKtYZH+hgmB39D8ryUBa9vXaGIN51Y1JqO+W9PCtBQ5ASMyynvwNlsPEBh+ATZG0aIm6Aj3lXDo7ENZii1lleUdS5RNftSi2obVO/RxuwRjQwmpWXvMxRaRM6syMCqY89f6DegxUAp/HiaKJDUOilwx/g8R60pKozHZAUS+5umhhJJyrk6nLGN78Jck=
