@@ -1,0 +1,46 @@
+---
+title: 'Kabanosy'
+layout: default.liquid
+is_draft: false
+---
+
+[![](https://4.bp.blogspot.com/-gxjXG9m4Qyo/WXcyvORK88I/AAAAAAAAFoA/tFiHzfarqvwhYQWzbsH9uGSy6gOfkRBFQCK4BGAYYCw/s640/IMG_20170724_183129.jpg)](http://4.bp.blogspot.com/-gxjXG9m4Qyo/WXcyvORK88I/AAAAAAAAFoA/tFiHzfarqvwhYQWzbsH9uGSy6gOfkRBFQCK4BGAYYCw/s1600/IMG_20170724_183129.jpg)
+
+
+[Kabanosy](https://en.wikipedia.org/wiki/Kabanos) are thin Polish smoked and dried sausages. I haven't done any dry cured meats since the largely failed salami/landjäger attempt in 2012, when I tried to dry cure about 30# of meat in a minifridge, with a fan and a bowl of water to roughly manage humidity.
+
+However I think the temperature may have been too high, or there wasn't enough airflow, and there were issues with contamination, yuck.
+
+THIS time around, I went for something more basic- these are thin sausages that take a hot smoke (150°F), and only about 4-5 days of drying time. They're a salt cure only, no culture or fermentation. I used these two recipes as guidelines (particularly, getting the nitrite and salt to meat ratios correct is important)-
+
+*   [http://wedlinydomowe.pl/en/viewtopic.php?t=5979](http://wedlinydomowe.pl/en/viewtopic.php?t=5979)
+*   [https://honest-food.net/kabanosy-recipe/](https://honest-food.net/kabanosy-recipe/)
+
+I added mustard seed, about 1.5 tablespoons, and used mace instead of nutmeg. I also started with about 2.5# of pork butt, which had plenty of fat, so I didn't add any extra.
+
+
+
+So final recipe ended up approximately like this:
+
+> 1200 grams (2.5#) of pork butt
+> 25 grams salt
+> 3 grams Cure #1
+> 4 grams black pepper
+> 2 grams caraway seeds
+> 2 grams mace
+> 4 grams sugar
+> 1/3 cup ice water
+
+
+
+I smoked them over cherry (chips) for about 1.5 hours only, I only have a round weber grill I use to smoke, with aluminum foil to indirect the heat a bit, but it's a really poor setup for slow smoking anything.
+
+
+
+Stuffed them into ~22mm sheep casings (from butcher & packer... couldn't find any locally) yielded about 10 pairs of 10-12" links, here's a shot of them before they went in the smoker-
+
+[![](https://3.bp.blogspot.com/-gFu54BD981w/WXcyZFk599I/AAAAAAAAFn4/fJDay01VPeMfABZGJ1v2jm-WS6AiFMoRQCK4BGAYYCw/s320/IMG_20170718_200914.jpg)](http://3.bp.blogspot.com/-gFu54BD981w/WXcyZFk599I/AAAAAAAAFn4/fJDay01VPeMfABZGJ1v2jm-WS6AiFMoRQCK4BGAYYCw/s1600/IMG_20170718_200914.jpg)
+
+
+
+Dried them just open in the fridge on some wire racks (thanks wife for tolerating!) for 5 days.
