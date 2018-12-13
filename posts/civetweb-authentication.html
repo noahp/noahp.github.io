@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>civetweb Authentication</title>
+    </head>
+    <body>
+    <div>
+      <h2><a href="https://noahpendleton.com">>top</a></h2>
+      <h2>civetweb Authentication</h2>
+      <p><a href="https://github.com/civetweb/civetweb">civetweb</a> is a basic http server that can be handy for quickly serving files, for example. It actually has a surprisingly rich feature set, which includes fine-grained authentication. Here's an example for setting up global authentication for the server.</p>
+<p>1
+2
+3
+4
+5
+6
+7
+8</p>
+<p># to generate a new password file-
+civetweb64.exe -A .htpasswd localhost admin admin</p>
+<p># start the server with that password
+civetweb64.exe -global_auth_file .htpasswd</p>
+<p># test in browser, or curl-
+curl.exe --digest -u mydomain.com\admin:admin http://localhost:8080/somefile.file</p>
+<p>That's it! The civetweb docs describe other options for authentication.</p>
+
+    </div>
+  </body>
+</html>

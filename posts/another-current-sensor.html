@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Another current sensor</title>
+    </head>
+    <body>
+    <div>
+      <h2><a href="https://noahpendleton.com">>top</a></h2>
+      <h2>Another current sensor</h2>
+      <p>Building out a pretty basic low-power 2 channel current+voltage meter, based around the very nice <a href="http://www.microchip.com/wwwproducts/en/PAC1720">PAC1720</a>.</p>
+<p>I'm using another Microchip part, MCP2221A, as the USB-I2C bridge. Simple little design but should allow me to perform some automated current+voltage measurements on LVDC type circuits.</p>
+<p>The PAC1720 part is about $2/piece from Mouser/Digikey, same for the MCP2221A, so BOM ends up around $7.50 including OSH fab. Pretty reasonable for the accuracy and range provided by the PAC1720.</p>
+<p>One interesting thing I found is that the MCP2221A uses USB-HID for I2C comms (vs CDC via bulk transfer), surprising, but nice, means the driver situation is easy.</p>
+<p><a href="https://github.com/noahp/psense">https://github.com/noahp/psense</a></p>
+<p><img src="https://github.com/noahp/psense/raw/master/psense_render.png" alt="Render" /></p>
+
+    </div>
+  </body>
+</html>
