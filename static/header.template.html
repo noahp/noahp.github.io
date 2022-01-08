@@ -33,15 +33,30 @@
         }
       }
     </style>
+    <!-- Here's the highlight.js stuff. Set it to always use the dark theme for
+    code blocks, it doesn't look _too_ bad on light mode 🤷 -->
     <link
       rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark-dimmed.min.css"
     />
-    <!-- <link rel="stylesheet"
-      href="github-dark-dimmed.css"> -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="//unpkg.com/highlightjs-badge@0.1.8/highlightjs-badge.min.js"></script>
     <script>
-      hljs.highlightAll();
+      document.addEventListener("DOMContentLoaded", (event) => {
+        // apply HighlightJS
+        hljs.highlightAll();
+
+        // add HighlightJS-badge (options are optional)
+        var options = {
+          // optional
+          contentSelector: "#ArticleBody",
+
+          // CSS class(es) used to render the copy icon.
+          copyIconClass: "fas fa-copy",
+          // CSS class(es) used to render the done icon.
+          checkIconClass: "fas fa-check text-success",
+        };
+        window.highlightJsBadge(options);
+      });
     </script>
   </head>
-  <body></body>
