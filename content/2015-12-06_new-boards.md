@@ -1,4 +1,7 @@
-# New boards
++++
+title = "New boards"
+date = 2015-12-06
++++
 
 New boards in, for [https://github.com/noahp/jpa](https://github.com/noahp/jpa)
 and [https://github.com/noahp/ledshirt](https://github.com/noahp/ledshirt) -

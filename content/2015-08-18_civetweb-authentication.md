@@ -1,4 +1,7 @@
-# civetweb Authentication
++++
+title = "civetweb Authentication"
+date = 2015-08-18
++++
 
 [civetweb](https://github.com/civetweb/civetweb) is a basic http server that can
 be handy for quickly serving files, for example. It actually has a surprisingly

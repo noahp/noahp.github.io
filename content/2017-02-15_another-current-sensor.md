@@ -1,4 +1,7 @@
-# Another current sensor
++++
+title = "Another current sensor"
+date = 2017-02-15
++++
 
 Building out a pretty basic low-power 2 channel current+voltage meter, based
 around the very nice [PAC1720](http://www.microchip.com/wwwproducts/en/PAC1720).
