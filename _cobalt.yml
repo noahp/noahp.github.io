@@ -1,7 +1,0 @@
-
-site:
-  title: noahp's blog
-  description: noahp's blog
-  base_url: https://noahpendleton.com
-posts:
-  rss: rss.xml

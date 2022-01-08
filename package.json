@@ -1,0 +1,17 @@
+{
+  "name": "noahp.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahp/noahp.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noahp/noahp.github.io/issues"
+  },
+  "homepage": "https://github.com/noahp/noahp.github.io#readme",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^4.0.9"
+  }
+}
