@@ -1,4 +1,7 @@
-# RGB Banner
++++
+title = "RGB Banner"
+date = 2015-08-14
++++
 
 This is a project I’ve been working on very slowly over the last couple of
 months-

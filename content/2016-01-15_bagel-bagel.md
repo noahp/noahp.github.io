@@ -1,4 +1,7 @@
-# Bagel Bagel
++++
+title = "Bagel Bagel"
+date = 2016-01-15
++++
 
 "Bagel Bagel" being what I would name my bagel shop, pretty good huh? If a
 customer forgets what I sell after reading the first half of the name- they're

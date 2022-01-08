@@ -1,4 +1,7 @@
-# Kicad Interactive Router
++++
+title = "Kicad Interactive Router"
+date = 2015-08-17
++++
 
 This has been available for over a year, and got a lot of notice when it was
 released, but somehow I never really spotted it-

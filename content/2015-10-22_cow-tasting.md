@@ -1,4 +1,7 @@
-# Cow tasting
++++
+title = "Cow tasting"
+date = 2015-10-22
++++
 
 Picked up my share of a cow I had gone in on with a friend of mine. Originally
 we were each going to end up with ~190lbs of meat! But it came up a little
