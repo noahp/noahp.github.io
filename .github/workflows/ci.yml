@@ -9,26 +9,32 @@ jobs:
     if: github.ref != 'refs/heads/main'
     steps:
       - name: "⬇️ Checkout"
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
+
+      - name: Cache pre-commit
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pre-commit
+          key: precommit-${{ hashFiles('.pre-commit-config.yaml') }}
+
+      - name: Cache yarn install
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: yarn-${{ hashFiles('yarn.lock') }}
+
       - name: Pre-commit
         run: |
           pip install pre-commit==2.20.0
           pre-commit run --all-files
-      - name: "🔨 Build only"
+
+      - name: "🔨 Build"
         run: |
           yarn install
           ./gen.sh
-  build_and_deploy:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - name: "⬇️ Checkout"
-        uses: actions/checkout@main
-      - name: "🔨 Build only"
-        run: |
-          yarn install
-          ./gen.sh
+
       - name: "🚀 Deploy"
+        if: ${{ github.ref == 'refs/heads/main' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
