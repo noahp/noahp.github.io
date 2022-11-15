@@ -10,6 +10,10 @@ jobs:
     steps:
       - name: "⬇️ Checkout"
         uses: actions/checkout@main
+      - name: Pre-commit
+        run: |
+          pip install pre-commit==2.20.0
+          pre-commit run --all-files
       - name: "🔨 Build only"
         run: |
           yarn install
