@@ -7,7 +7,7 @@ convert markdown to html, then shoves a static header and footer around the
 output 😅.
 
 ```bash
-❯ npm install
+❯ yarn install
 ❯ ./gen.sh
 
 # to view the output
