@@ -35,7 +35,7 @@ jobs:
 
           # for now, instead of deploying the actual site, just redirect
           rm -rf build/*
-          cp static/redirect-index.html build/
+          cp static/redirect-index.html build/index.html
 
       - name: "🚀 Deploy"
         if: ${{ github.ref == 'refs/heads/main' }}
